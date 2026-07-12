@@ -1,0 +1,17 @@
+# Python
+Python/venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.benchmarks/
+
+# Go
+Go/vendor/
+
+# Java
+Java/target/
+*.class
+*.jar
+!Java/target/benchmarks.jar
+Java/dependency-reduced-pom.xml

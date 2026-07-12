@@ -1,0 +1,1703 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 689,652 ms/op
+Iteration   2: 712,874 ms/op
+Iteration   3: 716,536 ms/op
+Iteration   4: 761,400 ms/op
+Iteration   5: 343,285 ms/op
+Iteration   6: 612,533 ms/op
+Iteration   7: 675,395 ms/op
+Iteration   8: 628,641 ms/op
+Iteration   9: 423,807 ms/op
+Iteration  10: 808,585 ms/op
+Iteration  11: 523,740 ms/op
+Iteration  12: 593,657 ms/op
+Iteration  13: 799,552 ms/op
+Iteration  14: 601,394 ms/op
+Iteration  15: 720,262 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =    640,754 ±(99.9%) 140,773 ms/op
+
+  Histogram, ms/op:
+    [300,000, 350,000) = 1 
+    [350,000, 400,000) = 0 
+    [400,000, 450,000) = 1 
+    [450,000, 500,000) = 0 
+    [500,000, 550,000) = 1 
+    [550,000, 600,000) = 1 
+    [600,000, 650,000) = 3 
+    [650,000, 700,000) = 2 
+    [700,000, 750,000) = 3 
+    [750,000, 800,000) = 2 
+    [800,000, 850,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =    343,285 ms/op
+     p(50,0000) =    675,395 ms/op
+     p(90,0000) =    803,166 ms/op
+     p(95,0000) =    808,585 ms/op
+     p(99,0000) =    808,585 ms/op
+     p(99,9000) =    808,585 ms/op
+     p(99,9900) =    808,585 ms/op
+     p(99,9990) =    808,585 ms/op
+     p(99,9999) =    808,585 ms/op
+    p(100,0000) =    808,585 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 5 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 4096)
+
+# Run progress: 50,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+Iteration   1: 8744,031 ms/op
+Iteration   2: 10687,147 ms/op
+Iteration   3: 3763,879 ms/op
+Iteration   4: 7268,590 ms/op
+Iteration   5: 6166,049 ms/op
+Iteration   6: 8868,167 ms/op
+Iteration   7: 5217,555 ms/op
+Iteration   8: 6985,975 ms/op
+Iteration   9: 6978,010 ms/op
+Iteration  10: 6663,786 ms/op
+Iteration  11: 9309,755 ms/op
+Iteration  12: 5196,722 ms/op
+Iteration  13: 7913,536 ms/op
+Iteration  14: 6077,113 ms/op
+Iteration  15: 10752,829 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =   7372,876 ±(99.9%) 2155,781 ms/op
+
+  Histogram, ms/op:
+    [ 3000,000,  3500,000) = 0 
+    [ 3500,000,  4000,000) = 1 
+    [ 4000,000,  4500,000) = 0 
+    [ 4500,000,  5000,000) = 0 
+    [ 5000,000,  5500,000) = 2 
+    [ 5500,000,  6000,000) = 0 
+    [ 6000,000,  6500,000) = 2 
+    [ 6500,000,  7000,000) = 3 
+    [ 7000,000,  7500,000) = 1 
+    [ 7500,000,  8000,000) = 1 
+    [ 8000,000,  8500,000) = 0 
+    [ 8500,000,  9000,000) = 2 
+    [ 9000,000,  9500,000) = 1 
+    [ 9500,000, 10000,000) = 0 
+    [10000,000, 10500,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =   3763,879 ms/op
+     p(50,0000) =   6985,975 ms/op
+     p(90,0000) =  10713,420 ms/op
+     p(95,0000) =  10752,829 ms/op
+     p(99,0000) =  10752,829 ms/op
+     p(99,9000) =  10752,829 ms/op
+     p(99,9900) =  10752,829 ms/op
+     p(99,9990) =  10752,829 ms/op
+     p(99,9999) =  10752,829 ms/op
+    p(100,0000) =  10752,829 ms/op
+
+
+# Run complete. Total time: 00:02:02
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                     (keySize)  Mode  Cnt     Score      Error  Units
+RsaBenchmark.benchmarkKeyGen       2048    ss   15   640,754 ±  140,773  ms/op
+RsaBenchmark.benchmarkKeyGen       4096    ss   15  7372,876 ± 2155,781  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 1191,245 ms/op
+Iteration   2: 1111,792 ms/op
+Iteration   3: 1356,743 ms/op
+Iteration   4: 822,214 ms/op
+Iteration   5: 1101,385 ms/op
+Iteration   6: 1536,536 ms/op
+Iteration   7: 1309,095 ms/op
+Iteration   8: 1480,346 ms/op
+Iteration   9: 773,907 ms/op
+Iteration  10: 922,476 ms/op
+Iteration  11: 1366,930 ms/op
+Iteration  12: 1096,751 ms/op
+Iteration  13: 1159,855 ms/op
+Iteration  14: 1427,803 ms/op
+Iteration  15: 1049,583 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =   1180,444 ±(99.9%) 248,447 ms/op
+
+  Histogram, ms/op:
+    [ 700,000,  750,000) = 0 
+    [ 750,000,  800,000) = 1 
+    [ 800,000,  850,000) = 1 
+    [ 850,000,  900,000) = 0 
+    [ 900,000,  950,000) = 1 
+    [ 950,000, 1000,000) = 0 
+    [1000,000, 1050,000) = 1 
+    [1050,000, 1100,000) = 1 
+    [1100,000, 1150,000) = 2 
+    [1150,000, 1200,000) = 2 
+    [1200,000, 1250,000) = 0 
+    [1250,000, 1300,000) = 0 
+    [1300,000, 1350,000) = 1 
+    [1350,000, 1400,000) = 2 
+    [1400,000, 1450,000) = 1 
+    [1450,000, 1500,000) = 1 
+    [1500,000, 1550,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =    773,907 ms/op
+     p(50,0000) =   1159,855 ms/op
+     p(90,0000) =   1502,822 ms/op
+     p(95,0000) =   1536,536 ms/op
+     p(99,0000) =   1536,536 ms/op
+     p(99,9000) =   1536,536 ms/op
+     p(99,9900) =   1536,536 ms/op
+     p(99,9990) =   1536,536 ms/op
+     p(99,9999) =   1536,536 ms/op
+    p(100,0000) =   1536,536 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 4096)
+
+# Run progress: 50,00% complete, ETA 00:00:18
+# Fork: 1 of 1
+Iteration   1: 14091,096 ms/op
+Iteration   2: 17244,993 ms/op
+Iteration   3: 11599,379 ms/op
+Iteration   4: 14386,902 ms/op
+Iteration   5: 13279,975 ms/op
+Iteration   6: 17448,881 ms/op
+Iteration   7: 14274,752 ms/op
+Iteration   8: 10851,690 ms/op
+Iteration   9: 14364,152 ms/op
+Iteration  10: 19197,073 ms/op
+Iteration  11: 13889,653 ms/op
+Iteration  12: 11813,263 ms/op
+Iteration  13: 13328,116 ms/op
+Iteration  14: 13259,146 ms/op
+Iteration  15: 8571,422 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =  13840,033 ±(99.9%) 2869,638 ms/op
+
+  Histogram, ms/op:
+    [    0,000,  1250,000) = 0 
+    [ 1250,000,  2500,000) = 0 
+    [ 2500,000,  3750,000) = 0 
+    [ 3750,000,  5000,000) = 0 
+    [ 5000,000,  6250,000) = 0 
+    [ 6250,000,  7500,000) = 0 
+    [ 7500,000,  8750,000) = 1 
+    [ 8750,000, 10000,000) = 0 
+    [10000,000, 11250,000) = 1 
+    [11250,000, 12500,000) = 2 
+    [12500,000, 13750,000) = 3 
+    [13750,000, 15000,000) = 5 
+    [15000,000, 16250,000) = 0 
+    [16250,000, 17500,000) = 2 
+    [17500,000, 18750,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =   8571,422 ms/op
+     p(50,0000) =  13889,653 ms/op
+     p(90,0000) =  18148,158 ms/op
+     p(95,0000) =  19197,073 ms/op
+     p(99,0000) =  19197,073 ms/op
+     p(99,9000) =  19197,073 ms/op
+     p(99,9900) =  19197,073 ms/op
+     p(99,9990) =  19197,073 ms/op
+     p(99,9999) =  19197,073 ms/op
+    p(100,0000) =  19197,073 ms/op
+
+
+# Run complete. Total time: 00:03:46
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                     (keySize)  Mode  Cnt      Score      Error  Units
+RsaBenchmark.benchmarkKeyGen       2048    ss   15   1180,444 ±  248,447  ms/op
+RsaBenchmark.benchmarkKeyGen       4096    ss   15  13840,033 ± 2869,638  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 50 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 6732,833 ms/op
+Iteration   2: 5801,587 ms/op
+Iteration   3: 5820,948 ms/op
+Iteration   4: 7202,082 ms/op
+Iteration   5: 6405,843 ms/op
+Iteration   6: 5541,249 ms/op
+Iteration   7: 6887,285 ms/op
+Iteration   8: 5496,185 ms/op
+Iteration   9: 5745,067 ms/op
+Iteration  10: 6031,468 ms/op
+Iteration  11: 5806,896 ms/op
+Iteration  12: 5944,098 ms/op
+Iteration  13: 6047,253 ms/op
+Iteration  14: 5958,285 ms/op
+Iteration  15: 6132,081 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =   6103,544 ±(99.9%) 529,677 ms/op
+
+  Histogram, ms/op:
+    [5000,000, 5250,000) = 0 
+    [5250,000, 5500,000) = 1 
+    [5500,000, 5750,000) = 2 
+    [5750,000, 6000,000) = 5 
+    [6000,000, 6250,000) = 3 
+    [6250,000, 6500,000) = 1 
+    [6500,000, 6750,000) = 1 
+    [6750,000, 7000,000) = 1 
+    [7000,000, 7250,000) = 1 
+    [7250,000, 7500,000) = 0 
+    [7500,000, 7750,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =   5496,185 ms/op
+     p(50,0000) =   5958,285 ms/op
+     p(90,0000) =   7013,204 ms/op
+     p(95,0000) =   7202,082 ms/op
+     p(99,0000) =   7202,082 ms/op
+     p(99,9000) =   7202,082 ms/op
+     p(99,9900) =   7202,082 ms/op
+     p(99,9990) =   7202,082 ms/op
+     p(99,9999) =   7202,082 ms/op
+    p(100,0000) =   7202,082 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 50 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 4096)
+
+# Run progress: 50,00% complete, ETA 00:01:32
+# Fork: 1 of 1
+Iteration   1: 66108,504 ms/op
+Iteration   2: 68623,939 ms/op
+Iteration   3: 63047,598 ms/op
+Iteration   4: 70644,524 ms/op
+Iteration   5: 66098,744 ms/op
+Iteration   6: 74415,381 ms/op
+Iteration   7: 61163,501 ms/op
+Iteration   8: 70767,631 ms/op
+Iteration   9: 72146,188 ms/op
+Iteration  10: 71104,609 ms/op
+Iteration  11: 65610,670 ms/op
+Iteration  12: 63181,055 ms/op
+Iteration  13: 76022,724 ms/op
+Iteration  14: 66256,782 ms/op
+Iteration  15: 69132,841 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =  68288,313 ±(99.9%) 4588,039 ms/op
+
+  Histogram, ms/op:
+    [60000,000, 61250,000) = 1 
+    [61250,000, 62500,000) = 0 
+    [62500,000, 63750,000) = 2 
+    [63750,000, 65000,000) = 0 
+    [65000,000, 66250,000) = 3 
+    [66250,000, 67500,000) = 1 
+    [67500,000, 68750,000) = 1 
+    [68750,000, 70000,000) = 1 
+    [70000,000, 71250,000) = 3 
+    [71250,000, 72500,000) = 1 
+    [72500,000, 73750,000) = 0 
+    [73750,000, 75000,000) = 1 
+    [75000,000, 76250,000) = 1 
+    [76250,000, 77500,000) = 0 
+    [77500,000, 78750,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =  61163,501 ms/op
+     p(50,0000) =  68623,939 ms/op
+     p(90,0000) =  75058,318 ms/op
+     p(95,0000) =  76022,724 ms/op
+     p(99,0000) =  76022,724 ms/op
+     p(99,9000) =  76022,724 ms/op
+     p(99,9900) =  76022,724 ms/op
+     p(99,9990) =  76022,724 ms/op
+     p(99,9999) =  76022,724 ms/op
+    p(100,0000) =  76022,724 ms/op
+
+
+# Run complete. Total time: 00:18:38
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                     (keySize)  Mode  Cnt      Score      Error  Units
+RsaBenchmark.benchmarkKeyGen       2048    ss   15   6103,544 ±  529,677  ms/op
+RsaBenchmark.benchmarkKeyGen       4096    ss   15  68288,313 ± 4588,039  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 100 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 12266,584 ms/op
+Iteration   2: 12906,915 ms/op
+Iteration   3: 11436,626 ms/op
+Iteration   4: 12569,210 ms/op
+Iteration   5: 13641,876 ms/op
+Iteration   6: 11045,215 ms/op
+Iteration   7: 11100,410 ms/op
+Iteration   8: 11434,290 ms/op
+Iteration   9: 13099,793 ms/op
+Iteration  10: 10944,044 ms/op
+Iteration  11: 11906,509 ms/op
+Iteration  12: 11552,233 ms/op
+Iteration  13: 11729,286 ms/op
+Iteration  14: 11968,170 ms/op
+Iteration  15: 11877,454 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean =  11965,241 ±(99.9%) 851,260 ms/op
+
+  Histogram, ms/op:
+    [10000,000, 10250,000) = 0 
+    [10250,000, 10500,000) = 0 
+    [10500,000, 10750,000) = 0 
+    [10750,000, 11000,000) = 1 
+    [11000,000, 11250,000) = 2 
+    [11250,000, 11500,000) = 2 
+    [11500,000, 11750,000) = 2 
+    [11750,000, 12000,000) = 3 
+    [12000,000, 12250,000) = 0 
+    [12250,000, 12500,000) = 1 
+    [12500,000, 12750,000) = 1 
+    [12750,000, 13000,000) = 1 
+    [13000,000, 13250,000) = 1 
+    [13250,000, 13500,000) = 0 
+    [13500,000, 13750,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =  10944,044 ms/op
+     p(50,0000) =  11877,454 ms/op
+     p(90,0000) =  13316,626 ms/op
+     p(95,0000) =  13641,876 ms/op
+     p(99,0000) =  13641,876 ms/op
+     p(99,9000) =  13641,876 ms/op
+     p(99,9900) =  13641,876 ms/op
+     p(99,9990) =  13641,876 ms/op
+     p(99,9999) =  13641,876 ms/op
+    p(100,0000) =  13641,876 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 100 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkKeyGen
+# Parameters: (keySize = 4096)
+
+# Run progress: 50,00% complete, ETA 00:03:00
+# Fork: 1 of 1
+Iteration   1: 157303,448 ms/op
+Iteration   2: 139412,651 ms/op
+Iteration   3: 139756,583 ms/op
+Iteration   4: 131484,553 ms/op
+Iteration   5: 149044,269 ms/op
+Iteration   6: 138616,561 ms/op
+Iteration   7: 149364,818 ms/op
+Iteration   8: 134155,030 ms/op
+Iteration   9: 132377,962 ms/op
+Iteration  10: 147331,210 ms/op
+Iteration  11: 141336,059 ms/op
+Iteration  12: 146112,922 ms/op
+Iteration  13: 134032,182 ms/op
+Iteration  14: 143576,515 ms/op
+Iteration  15: 145628,602 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkKeyGen":
+  N = 15
+  mean = 141968,891 ±(99.9%) 7829,088 ms/op
+
+  Histogram, ms/op:
+    [130000,000, 132500,000) = 2 
+    [132500,000, 135000,000) = 2 
+    [135000,000, 137500,000) = 0 
+    [137500,000, 140000,000) = 3 
+    [140000,000, 142500,000) = 1 
+    [142500,000, 145000,000) = 1 
+    [145000,000, 147500,000) = 3 
+    [147500,000, 150000,000) = 2 
+    [150000,000, 152500,000) = 0 
+    [152500,000, 155000,000) = 0 
+    [155000,000, 157500,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) = 131484,553 ms/op
+     p(50,0000) = 141336,059 ms/op
+     p(90,0000) = 152540,270 ms/op
+     p(95,0000) = 157303,448 ms/op
+     p(99,0000) = 157303,448 ms/op
+     p(99,9000) = 157303,448 ms/op
+     p(99,9900) = 157303,448 ms/op
+     p(99,9990) = 157303,448 ms/op
+     p(99,9999) = 157303,448 ms/op
+    p(100,0000) = 157303,448 ms/op
+
+
+# Run complete. Total time: 00:38:31
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                     (keySize)  Mode  Cnt       Score      Error  Units
+RsaBenchmark.benchmarkKeyGen       2048    ss   15   11965,241 ±  851,260  ms/op
+RsaBenchmark.benchmarkKeyGen       4096    ss   15  141968,891 ± 7829,088  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 37,465 ms/op
+Iteration   2: 40,294 ms/op
+Iteration   3: 36,938 ms/op
+Iteration   4: 28,852 ms/op
+Iteration   5: 24,946 ms/op
+Iteration   6: 20,773 ms/op
+Iteration   7: 23,282 ms/op
+Iteration   8: 23,543 ms/op
+Iteration   9: 28,205 ms/op
+Iteration  10: 28,443 ms/op
+Iteration  11: 28,338 ms/op
+Iteration  12: 30,267 ms/op
+Iteration  13: 22,584 ms/op
+Iteration  14: 17,906 ms/op
+Iteration  15: 19,950 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =     27,452 ±(99.9%) 7,126 ms/op
+
+  Histogram, ms/op:
+    [10,000, 12,500) = 0 
+    [12,500, 15,000) = 0 
+    [15,000, 17,500) = 0 
+    [17,500, 20,000) = 2 
+    [20,000, 22,500) = 1 
+    [22,500, 25,000) = 4 
+    [25,000, 27,500) = 0 
+    [27,500, 30,000) = 4 
+    [30,000, 32,500) = 1 
+    [32,500, 35,000) = 0 
+    [35,000, 37,500) = 2 
+    [37,500, 40,000) = 0 
+    [40,000, 42,500) = 1 
+    [42,500, 45,000) = 0 
+    [45,000, 47,500) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =     17,906 ms/op
+     p(50,0000) =     28,205 ms/op
+     p(90,0000) =     38,596 ms/op
+     p(95,0000) =     40,294 ms/op
+     p(99,0000) =     40,294 ms/op
+     p(99,9000) =     40,294 ms/op
+     p(99,9900) =     40,294 ms/op
+     p(99,9990) =     40,294 ms/op
+     p(99,9999) =     40,294 ms/op
+    p(100,0000) =     40,294 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 25,00% complete, ETA 00:00:03
+# Fork: 1 of 1
+Iteration   1: 116,130 ms/op
+Iteration   2: 103,896 ms/op
+Iteration   3: 99,218 ms/op
+Iteration   4: 94,361 ms/op
+Iteration   5: 95,567 ms/op
+Iteration   6: 96,680 ms/op
+Iteration   7: 97,669 ms/op
+Iteration   8: 94,005 ms/op
+Iteration   9: 92,364 ms/op
+Iteration  10: 91,900 ms/op
+Iteration  11: 94,137 ms/op
+Iteration  12: 92,317 ms/op
+Iteration  13: 97,014 ms/op
+Iteration  14: 88,598 ms/op
+Iteration  15: 106,872 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =     97,382 ±(99.9%) 7,453 ms/op
+
+  Histogram, ms/op:
+    [ 80,000,  82,500) = 0 
+    [ 82,500,  85,000) = 0 
+    [ 85,000,  87,500) = 0 
+    [ 87,500,  90,000) = 1 
+    [ 90,000,  92,500) = 3 
+    [ 92,500,  95,000) = 3 
+    [ 95,000,  97,500) = 3 
+    [ 97,500, 100,000) = 2 
+    [100,000, 102,500) = 0 
+    [102,500, 105,000) = 1 
+    [105,000, 107,500) = 1 
+    [107,500, 110,000) = 0 
+    [110,000, 112,500) = 0 
+    [112,500, 115,000) = 0 
+    [115,000, 117,500) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =     88,598 ms/op
+     p(50,0000) =     95,567 ms/op
+     p(90,0000) =    110,576 ms/op
+     p(95,0000) =    116,130 ms/op
+     p(99,0000) =    116,130 ms/op
+     p(99,9000) =    116,130 ms/op
+     p(99,9900) =    116,130 ms/op
+     p(99,9990) =    116,130 ms/op
+     p(99,9999) =    116,130 ms/op
+    p(100,0000) =    116,130 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 50,00% complete, ETA 00:00:06
+# Fork: 1 of 1
+Iteration   1: 6,033 ms/op
+Iteration   2: 8,502 ms/op
+Iteration   3: 5,771 ms/op
+Iteration   4: 5,267 ms/op
+Iteration   5: 7,490 ms/op
+Iteration   6: 4,182 ms/op
+Iteration   7: 6,198 ms/op
+Iteration   8: 4,337 ms/op
+Iteration   9: 5,124 ms/op
+Iteration  10: 6,794 ms/op
+Iteration  11: 3,837 ms/op
+Iteration  12: 4,412 ms/op
+Iteration  13: 6,771 ms/op
+Iteration  14: 3,595 ms/op
+Iteration  15: 6,150 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =      5,631 ±(99.9%) 1,516 ms/op
+
+  Histogram, ms/op:
+    [3,000, 3,500) = 0 
+    [3,500, 4,000) = 2 
+    [4,000, 4,500) = 3 
+    [4,500, 5,000) = 0 
+    [5,000, 5,500) = 2 
+    [5,500, 6,000) = 1 
+    [6,000, 6,500) = 3 
+    [6,500, 7,000) = 2 
+    [7,000, 7,500) = 1 
+    [7,500, 8,000) = 0 
+    [8,000, 8,500) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =      3,595 ms/op
+     p(50,0000) =      5,771 ms/op
+     p(90,0000) =      7,895 ms/op
+     p(95,0000) =      8,502 ms/op
+     p(99,0000) =      8,502 ms/op
+     p(99,9000) =      8,502 ms/op
+     p(99,9900) =      8,502 ms/op
+     p(99,9990) =      8,502 ms/op
+     p(99,9999) =      8,502 ms/op
+    p(100,0000) =      8,502 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 75,00% complete, ETA 00:00:02
+# Fork: 1 of 1
+Iteration   1: 7,334 ms/op
+Iteration   2: 9,934 ms/op
+Iteration   3: 10,064 ms/op
+Iteration   4: 5,590 ms/op
+Iteration   5: 9,618 ms/op
+Iteration   6: 6,207 ms/op
+Iteration   7: 9,392 ms/op
+Iteration   8: 6,095 ms/op
+Iteration   9: 7,044 ms/op
+Iteration  10: 6,743 ms/op
+Iteration  11: 4,545 ms/op
+Iteration  12: 8,806 ms/op
+Iteration  13: 10,410 ms/op
+Iteration  14: 5,680 ms/op
+Iteration  15: 3,610 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =      7,405 ±(99.9%) 2,319 ms/op
+
+  Histogram, ms/op:
+    [ 3,000,  3,500) = 0 
+    [ 3,500,  4,000) = 1 
+    [ 4,000,  4,500) = 0 
+    [ 4,500,  5,000) = 1 
+    [ 5,000,  5,500) = 0 
+    [ 5,500,  6,000) = 2 
+    [ 6,000,  6,500) = 2 
+    [ 6,500,  7,000) = 1 
+    [ 7,000,  7,500) = 2 
+    [ 7,500,  8,000) = 0 
+    [ 8,000,  8,500) = 0 
+    [ 8,500,  9,000) = 1 
+    [ 9,000,  9,500) = 1 
+    [ 9,500, 10,000) = 2 
+    [10,000, 10,500) = 2 
+
+  Percentiles, ms/op:
+      p(0,0000) =      3,610 ms/op
+     p(50,0000) =      7,044 ms/op
+     p(90,0000) =     10,203 ms/op
+     p(95,0000) =     10,410 ms/op
+     p(99,0000) =     10,410 ms/op
+     p(99,9000) =     10,410 ms/op
+     p(99,9900) =     10,410 ms/op
+     p(99,9990) =     10,410 ms/op
+     p(99,9999) =     10,410 ms/op
+    p(100,0000) =     10,410 ms/op
+
+
+# Run complete. Total time: 00:00:08
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                      (keySize)  Mode  Cnt   Score   Error  Units
+RsaBenchmark.benchmarkDecrypt       2048    ss   15  27,452 ± 7,126  ms/op
+RsaBenchmark.benchmarkDecrypt       4096    ss   15  97,382 ± 7,453  ms/op
+RsaBenchmark.benchmarkEncrypt       2048    ss   15   5,631 ± 1,516  ms/op
+RsaBenchmark.benchmarkEncrypt       4096    ss   15   7,405 ± 2,319  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 100 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 269,899 ms/op
+Iteration   2: 288,520 ms/op
+Iteration   3: 308,911 ms/op
+Iteration   4: 231,820 ms/op
+Iteration   5: 175,478 ms/op
+Iteration   6: 159,209 ms/op
+Iteration   7: 150,239 ms/op
+Iteration   8: 188,396 ms/op
+Iteration   9: 146,236 ms/op
+Iteration  10: 195,090 ms/op
+Iteration  11: 164,062 ms/op
+Iteration  12: 172,577 ms/op
+Iteration  13: 204,139 ms/op
+Iteration  14: 237,128 ms/op
+Iteration  15: 181,587 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =    204,886 ±(99.9%) 54,815 ms/op
+
+  Histogram, ms/op:
+    [100,000, 125,000) = 0 
+    [125,000, 150,000) = 1 
+    [150,000, 175,000) = 4 
+    [175,000, 200,000) = 4 
+    [200,000, 225,000) = 1 
+    [225,000, 250,000) = 2 
+    [250,000, 275,000) = 1 
+    [275,000, 300,000) = 1 
+    [300,000, 325,000) = 1 
+    [325,000, 350,000) = 0 
+    [350,000, 375,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =    146,236 ms/op
+     p(50,0000) =    188,396 ms/op
+     p(90,0000) =    296,676 ms/op
+     p(95,0000) =    308,911 ms/op
+     p(99,0000) =    308,911 ms/op
+     p(99,9000) =    308,911 ms/op
+     p(99,9900) =    308,911 ms/op
+     p(99,9990) =    308,911 ms/op
+     p(99,9999) =    308,911 ms/op
+    p(100,0000) =    308,911 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 100 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 25,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+Iteration   1: 994,107 ms/op
+Iteration   2: 912,140 ms/op
+Iteration   3: 920,805 ms/op
+Iteration   4: 901,508 ms/op
+Iteration   5: 904,804 ms/op
+Iteration   6: 888,706 ms/op
+Iteration   7: 880,680 ms/op
+Iteration   8: 886,206 ms/op
+Iteration   9: 878,833 ms/op
+Iteration  10: 873,901 ms/op
+Iteration  11: 941,225 ms/op
+Iteration  12: 882,613 ms/op
+Iteration  13: 884,702 ms/op
+Iteration  14: 889,807 ms/op
+Iteration  15: 871,928 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =    900,798 ±(99.9%) 34,286 ms/op
+
+  Histogram, ms/op:
+    [ 800,000,  812,500) = 0 
+    [ 812,500,  825,000) = 0 
+    [ 825,000,  837,500) = 0 
+    [ 837,500,  850,000) = 0 
+    [ 850,000,  862,500) = 0 
+    [ 862,500,  875,000) = 2 
+    [ 875,000,  887,500) = 5 
+    [ 887,500,  900,000) = 2 
+    [ 900,000,  912,500) = 3 
+    [ 912,500,  925,000) = 1 
+    [ 925,000,  937,500) = 0 
+    [ 937,500,  950,000) = 1 
+    [ 950,000,  962,500) = 0 
+    [ 962,500,  975,000) = 0 
+    [ 975,000,  987,500) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =    871,928 ms/op
+     p(50,0000) =    888,706 ms/op
+     p(90,0000) =    962,378 ms/op
+     p(95,0000) =    994,107 ms/op
+     p(99,0000) =    994,107 ms/op
+     p(99,9000) =    994,107 ms/op
+     p(99,9900) =    994,107 ms/op
+     p(99,9990) =    994,107 ms/op
+     p(99,9999) =    994,107 ms/op
+    p(100,0000) =    994,107 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 100 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 50,00% complete, ETA 00:00:18
+# Fork: 1 of 1
+Iteration   1: 42,283 ms/op
+Iteration   2: 43,042 ms/op
+Iteration   3: 20,983 ms/op
+Iteration   4: 24,587 ms/op
+Iteration   5: 25,351 ms/op
+Iteration   6: 33,895 ms/op
+Iteration   7: 24,259 ms/op
+Iteration   8: 12,274 ms/op
+Iteration   9: 18,558 ms/op
+Iteration  10: 12,956 ms/op
+Iteration  11: 17,931 ms/op
+Iteration  12: 17,087 ms/op
+Iteration  13: 14,652 ms/op
+Iteration  14: 15,812 ms/op
+Iteration  15: 16,687 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =     22,691 ±(99.9%) 10,545 ms/op
+
+  Histogram, ms/op:
+    [10,000, 12,500) = 1 
+    [12,500, 15,000) = 2 
+    [15,000, 17,500) = 3 
+    [17,500, 20,000) = 2 
+    [20,000, 22,500) = 1 
+    [22,500, 25,000) = 2 
+    [25,000, 27,500) = 1 
+    [27,500, 30,000) = 0 
+    [30,000, 32,500) = 0 
+    [32,500, 35,000) = 1 
+    [35,000, 37,500) = 0 
+    [37,500, 40,000) = 0 
+    [40,000, 42,500) = 1 
+    [42,500, 45,000) = 1 
+    [45,000, 47,500) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =     12,274 ms/op
+     p(50,0000) =     18,558 ms/op
+     p(90,0000) =     42,586 ms/op
+     p(95,0000) =     43,042 ms/op
+     p(99,0000) =     43,042 ms/op
+     p(99,9000) =     43,042 ms/op
+     p(99,9900) =     43,042 ms/op
+     p(99,9990) =     43,042 ms/op
+     p(99,9999) =     43,042 ms/op
+    p(100,0000) =     43,042 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 100 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 75,00% complete, ETA 00:00:06
+# Fork: 1 of 1
+Iteration   1: 77,839 ms/op
+Iteration   2: 48,717 ms/op
+Iteration   3: 52,798 ms/op
+Iteration   4: 45,735 ms/op
+Iteration   5: 33,728 ms/op
+Iteration   6: 39,415 ms/op
+Iteration   7: 35,639 ms/op
+Iteration   8: 38,550 ms/op
+Iteration   9: 27,285 ms/op
+Iteration  10: 37,610 ms/op
+Iteration  11: 43,900 ms/op
+Iteration  12: 43,653 ms/op
+Iteration  13: 40,139 ms/op
+Iteration  14: 35,181 ms/op
+Iteration  15: 38,484 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =     42,578 ±(99.9%) 12,412 ms/op
+
+  Histogram, ms/op:
+    [20,000, 25,000) = 0 
+    [25,000, 30,000) = 1 
+    [30,000, 35,000) = 1 
+    [35,000, 40,000) = 6 
+    [40,000, 45,000) = 3 
+    [45,000, 50,000) = 2 
+    [50,000, 55,000) = 1 
+    [55,000, 60,000) = 0 
+    [60,000, 65,000) = 0 
+    [65,000, 70,000) = 0 
+    [70,000, 75,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =     27,285 ms/op
+     p(50,0000) =     39,415 ms/op
+     p(90,0000) =     62,815 ms/op
+     p(95,0000) =     77,839 ms/op
+     p(99,0000) =     77,839 ms/op
+     p(99,9000) =     77,839 ms/op
+     p(99,9900) =     77,839 ms/op
+     p(99,9990) =     77,839 ms/op
+     p(99,9999) =     77,839 ms/op
+    p(100,0000) =     77,839 ms/op
+
+
+# Run complete. Total time: 00:00:22
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                      (keySize)  Mode  Cnt    Score    Error  Units
+RsaBenchmark.benchmarkDecrypt       2048    ss   15  204,886 ± 54,815  ms/op
+RsaBenchmark.benchmarkDecrypt       4096    ss   15  900,798 ± 34,286  ms/op
+RsaBenchmark.benchmarkEncrypt       2048    ss   15   22,691 ± 10,545  ms/op
+RsaBenchmark.benchmarkEncrypt       4096    ss   15   42,578 ± 12,412  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 1516,628 ms/op
+Iteration   2: 1500,070 ms/op
+Iteration   3: 1336,918 ms/op
+Iteration   4: 1344,014 ms/op
+Iteration   5: 1328,856 ms/op
+Iteration   6: 1380,412 ms/op
+Iteration   7: 1350,980 ms/op
+Iteration   8: 1325,855 ms/op
+Iteration   9: 1310,877 ms/op
+Iteration  10: 1312,398 ms/op
+Iteration  11: 1307,948 ms/op
+Iteration  12: 1311,407 ms/op
+Iteration  13: 1310,870 ms/op
+Iteration  14: 1312,802 ms/op
+Iteration  15: 1316,684 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =   1351,115 ±(99.9%) 71,519 ms/op
+
+  Histogram, ms/op:
+    [1300,000, 1325,000) = 7 
+    [1325,000, 1350,000) = 4 
+    [1350,000, 1375,000) = 1 
+    [1375,000, 1400,000) = 1 
+    [1400,000, 1425,000) = 0 
+    [1425,000, 1450,000) = 0 
+    [1450,000, 1475,000) = 0 
+    [1475,000, 1500,000) = 0 
+    [1500,000, 1525,000) = 2 
+    [1525,000, 1550,000) = 0 
+    [1550,000, 1575,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =   1307,948 ms/op
+     p(50,0000) =   1325,855 ms/op
+     p(90,0000) =   1506,693 ms/op
+     p(95,0000) =   1516,628 ms/op
+     p(99,0000) =   1516,628 ms/op
+     p(99,9000) =   1516,628 ms/op
+     p(99,9900) =   1516,628 ms/op
+     p(99,9990) =   1516,628 ms/op
+     p(99,9999) =   1516,628 ms/op
+    p(100,0000) =   1516,628 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 25,00% complete, ETA 00:01:02
+# Fork: 1 of 1
+Iteration   1: 9049,331 ms/op
+Iteration   2: 9074,250 ms/op
+Iteration   3: 8782,697 ms/op
+Iteration   4: 8802,268 ms/op
+Iteration   5: 8808,853 ms/op
+Iteration   6: 8783,447 ms/op
+Iteration   7: 8735,002 ms/op
+Iteration   8: 8739,587 ms/op
+Iteration   9: 9072,566 ms/op
+Iteration  10: 8802,769 ms/op
+Iteration  11: 8829,299 ms/op
+Iteration  12: 8762,207 ms/op
+Iteration  13: 8723,059 ms/op
+Iteration  14: 8716,614 ms/op
+Iteration  15: 8723,616 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =   8827,038 ±(99.9%) 137,097 ms/op
+
+  Histogram, ms/op:
+    [8700,000, 8725,000) = 3 
+    [8725,000, 8750,000) = 2 
+    [8750,000, 8775,000) = 1 
+    [8775,000, 8800,000) = 2 
+    [8800,000, 8825,000) = 3 
+    [8825,000, 8850,000) = 1 
+    [8850,000, 8875,000) = 0 
+    [8875,000, 8900,000) = 0 
+    [8900,000, 8925,000) = 0 
+    [8925,000, 8950,000) = 0 
+    [8950,000, 8975,000) = 0 
+    [8975,000, 9000,000) = 0 
+    [9000,000, 9025,000) = 0 
+    [9025,000, 9050,000) = 1 
+    [9050,000, 9075,000) = 2 
+
+  Percentiles, ms/op:
+      p(0,0000) =   8716,614 ms/op
+     p(50,0000) =   8783,447 ms/op
+     p(90,0000) =   9073,240 ms/op
+     p(95,0000) =   9074,250 ms/op
+     p(99,0000) =   9074,250 ms/op
+     p(99,9000) =   9074,250 ms/op
+     p(99,9900) =   9074,250 ms/op
+     p(99,9990) =   9074,250 ms/op
+     p(99,9999) =   9074,250 ms/op
+    p(100,0000) =   9074,250 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 50,00% complete, ETA 00:02:35
+# Fork: 1 of 1
+Iteration   1: 229,377 ms/op
+Iteration   2: 153,854 ms/op
+Iteration   3: 126,006 ms/op
+Iteration   4: 120,089 ms/op
+Iteration   5: 102,249 ms/op
+Iteration   6: 87,322 ms/op
+Iteration   7: 73,193 ms/op
+Iteration   8: 74,218 ms/op
+Iteration   9: 87,372 ms/op
+Iteration  10: 76,397 ms/op
+Iteration  11: 65,883 ms/op
+Iteration  12: 60,779 ms/op
+Iteration  13: 61,520 ms/op
+Iteration  14: 58,409 ms/op
+Iteration  15: 61,232 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =     95,860 ±(99.9%) 49,606 ms/op
+
+  Histogram, ms/op:
+    [  0,000,  25,000) = 0 
+    [ 25,000,  50,000) = 0 
+    [ 50,000,  75,000) = 7 
+    [ 75,000, 100,000) = 3 
+    [100,000, 125,000) = 2 
+    [125,000, 150,000) = 1 
+    [150,000, 175,000) = 1 
+    [175,000, 200,000) = 0 
+    [200,000, 225,000) = 0 
+    [225,000, 250,000) = 1 
+    [250,000, 275,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =     58,409 ms/op
+     p(50,0000) =     76,397 ms/op
+     p(90,0000) =    184,063 ms/op
+     p(95,0000) =    229,377 ms/op
+     p(99,0000) =    229,377 ms/op
+     p(99,9000) =    229,377 ms/op
+     p(99,9900) =    229,377 ms/op
+     p(99,9990) =    229,377 ms/op
+     p(99,9999) =    229,377 ms/op
+    p(100,0000) =    229,377 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 1000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 75,00% complete, ETA 00:00:52
+# Fork: 1 of 1
+Iteration   1: 531,690 ms/op
+Iteration   2: 408,076 ms/op
+Iteration   3: 346,749 ms/op
+Iteration   4: 361,645 ms/op
+Iteration   5: 302,331 ms/op
+Iteration   6: 219,165 ms/op
+Iteration   7: 208,608 ms/op
+Iteration   8: 190,126 ms/op
+Iteration   9: 182,246 ms/op
+Iteration  10: 183,609 ms/op
+Iteration  11: 183,405 ms/op
+Iteration  12: 185,892 ms/op
+Iteration  13: 185,481 ms/op
+Iteration  14: 183,240 ms/op
+Iteration  15: 185,511 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =    257,185 ±(99.9%) 115,953 ms/op
+
+  Histogram, ms/op:
+    [100,000, 150,000) = 0 
+    [150,000, 200,000) = 8 
+    [200,000, 250,000) = 2 
+    [250,000, 300,000) = 0 
+    [300,000, 350,000) = 2 
+    [350,000, 400,000) = 1 
+    [400,000, 450,000) = 1 
+    [450,000, 500,000) = 0 
+    [500,000, 550,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =    182,246 ms/op
+     p(50,0000) =    190,126 ms/op
+     p(90,0000) =    457,522 ms/op
+     p(95,0000) =    531,690 ms/op
+     p(99,0000) =    531,690 ms/op
+     p(99,9000) =    531,690 ms/op
+     p(99,9900) =    531,690 ms/op
+     p(99,9990) =    531,690 ms/op
+     p(99,9999) =    531,690 ms/op
+    p(100,0000) =    531,690 ms/op
+
+
+# Run complete. Total time: 00:02:43
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                      (keySize)  Mode  Cnt     Score     Error  Units
+RsaBenchmark.benchmarkDecrypt       2048    ss   15  1351,115 ±  71,519  ms/op
+RsaBenchmark.benchmarkDecrypt       4096    ss   15  8827,038 ± 137,097  ms/op
+RsaBenchmark.benchmarkEncrypt       2048    ss   15    95,860 ±  49,606  ms/op
+RsaBenchmark.benchmarkEncrypt       4096    ss   15   257,185 ± 115,953  ms/op
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 13655,004 ms/op
+Iteration   2: 13139,593 ms/op
+Iteration   3: 13096,691 ms/op
+Iteration   4: 13055,357 ms/op
+Iteration   5: 13664,814 ms/op
+Iteration   6: 13234,597 ms/op
+Iteration   7: 13126,360 ms/op
+Iteration   8: 13056,474 ms/op
+Iteration   9: 13413,210 ms/op
+Iteration  10: 13334,115 ms/op
+Iteration  11: 13140,753 ms/op
+Iteration  12: 13072,834 ms/op
+Iteration  13: 13074,312 ms/op
+Iteration  14: 13664,196 ms/op
+Iteration  15: 13118,481 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =  13256,453 ±(99.9%) 248,885 ms/op
+
+  Histogram, ms/op:
+    [13000,000, 13050,000) = 0 
+    [13050,000, 13100,000) = 5 
+    [13100,000, 13150,000) = 4 
+    [13150,000, 13200,000) = 0 
+    [13200,000, 13250,000) = 1 
+    [13250,000, 13300,000) = 0 
+    [13300,000, 13350,000) = 1 
+    [13350,000, 13400,000) = 0 
+    [13400,000, 13450,000) = 1 
+    [13450,000, 13500,000) = 0 
+    [13500,000, 13550,000) = 0 
+    [13550,000, 13600,000) = 0 
+    [13600,000, 13650,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =  13055,357 ms/op
+     p(50,0000) =  13139,593 ms/op
+     p(90,0000) =  13664,443 ms/op
+     p(95,0000) =  13664,814 ms/op
+     p(99,0000) =  13664,814 ms/op
+     p(99,9000) =  13664,814 ms/op
+     p(99,9900) =  13664,814 ms/op
+     p(99,9990) =  13664,814 ms/op
+     p(99,9999) =  13664,814 ms/op
+    p(100,0000) =  13664,814 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkDecrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 25,00% complete, ETA 00:09:58
+# Fork: 1 of 1
+Iteration   1: 89286,721 ms/op
+Iteration   2: 88133,756 ms/op
+Iteration   3: 87837,617 ms/op
+Iteration   4: 88036,602 ms/op
+Iteration   5: 87733,288 ms/op
+Iteration   6: 88023,059 ms/op
+Iteration   7: 87882,138 ms/op
+Iteration   8: 87918,860 ms/op
+Iteration   9: 87602,747 ms/op
+Iteration  10: 88146,076 ms/op
+Iteration  11: 87660,773 ms/op
+Iteration  12: 88085,968 ms/op
+Iteration  13: 87773,966 ms/op
+Iteration  14: 87727,335 ms/op
+Iteration  15: 87932,511 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkDecrypt":
+  N = 15
+  mean =  87985,428 ±(99.9%) 425,885 ms/op
+
+  Histogram, ms/op:
+    [87000,000, 87250,000) = 0 
+    [87250,000, 87500,000) = 0 
+    [87500,000, 87750,000) = 4 
+    [87750,000, 88000,000) = 5 
+    [88000,000, 88250,000) = 5 
+    [88250,000, 88500,000) = 0 
+    [88500,000, 88750,000) = 0 
+    [88750,000, 89000,000) = 0 
+    [89000,000, 89250,000) = 0 
+    [89250,000, 89500,000) = 1 
+    [89500,000, 89750,000) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =  87602,747 ms/op
+     p(50,0000) =  87918,860 ms/op
+     p(90,0000) =  88602,334 ms/op
+     p(95,0000) =  89286,721 ms/op
+     p(99,0000) =  89286,721 ms/op
+     p(99,9000) =  89286,721 ms/op
+     p(99,9900) =  89286,721 ms/op
+     p(99,9990) =  89286,721 ms/op
+     p(99,9999) =  89286,721 ms/op
+    p(100,0000) =  89286,721 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 2048)
+
+# Run progress: 50,00% complete, ETA 00:25:21
+# Fork: 1 of 1
+Iteration   1: 1020,869 ms/op
+Iteration   2: 644,638 ms/op
+Iteration   3: 581,367 ms/op
+Iteration   4: 580,227 ms/op
+Iteration   5: 616,221 ms/op
+Iteration   6: 593,740 ms/op
+Iteration   7: 581,467 ms/op
+Iteration   8: 587,647 ms/op
+Iteration   9: 584,675 ms/op
+Iteration  10: 582,892 ms/op
+Iteration  11: 604,712 ms/op
+Iteration  12: 583,564 ms/op
+Iteration  13: 578,451 ms/op
+Iteration  14: 576,894 ms/op
+Iteration  15: 576,652 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =    619,601 ±(99.9%) 120,294 ms/op
+
+  Histogram, ms/op:
+    [ 500,000,  550,000) = 0 
+    [ 550,000,  600,000) = 11 
+    [ 600,000,  650,000) = 3 
+    [ 650,000,  700,000) = 0 
+    [ 700,000,  750,000) = 0 
+    [ 750,000,  800,000) = 0 
+    [ 800,000,  850,000) = 0 
+    [ 850,000,  900,000) = 0 
+    [ 900,000,  950,000) = 0 
+    [ 950,000, 1000,000) = 0 
+    [1000,000, 1050,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =    576,652 ms/op
+     p(50,0000) =    583,564 ms/op
+     p(90,0000) =    795,130 ms/op
+     p(95,0000) =   1020,869 ms/op
+     p(99,0000) =   1020,869 ms/op
+     p(99,9000) =   1020,869 ms/op
+     p(99,9900) =   1020,869 ms/op
+     p(99,9990) =   1020,869 ms/op
+     p(99,9999) =   1020,869 ms/op
+    p(100,0000) =   1020,869 ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.11, OpenJDK 64-Bit Server VM, 21.0.11+10-1-24.04.2-Ubuntu
+# VM invoker: /usr/lib/jvm/java-21-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 15 iterations, single-shot each, 10000 calls per op
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: benchmark.RsaBenchmark.benchmarkEncrypt
+# Parameters: (keySize = 4096)
+
+# Run progress: 75,00% complete, ETA 00:08:30
+# Fork: 1 of 1
+Iteration   1: 2200,455 ms/op
+Iteration   2: 1833,844 ms/op
+Iteration   3: 1954,765 ms/op
+Iteration   4: 1944,716 ms/op
+Iteration   5: 1815,445 ms/op
+Iteration   6: 1816,296 ms/op
+Iteration   7: 1809,523 ms/op
+Iteration   8: 1806,930 ms/op
+Iteration   9: 1872,861 ms/op
+Iteration  10: 1812,306 ms/op
+Iteration  11: 1813,041 ms/op
+Iteration  12: 1836,448 ms/op
+Iteration  13: 1813,596 ms/op
+Iteration  14: 1819,330 ms/op
+Iteration  15: 1807,654 ms/op
+
+
+Result "benchmark.RsaBenchmark.benchmarkEncrypt":
+  N = 15
+  mean =   1863,814 ±(99.9%) 111,956 ms/op
+
+  Histogram, ms/op:
+    [1800,000, 1850,000) = 11 
+    [1850,000, 1900,000) = 1 
+    [1900,000, 1950,000) = 1 
+    [1950,000, 2000,000) = 1 
+    [2000,000, 2050,000) = 0 
+    [2050,000, 2100,000) = 0 
+    [2100,000, 2150,000) = 0 
+    [2150,000, 2200,000) = 0 
+    [2200,000, 2250,000) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =   1806,930 ms/op
+     p(50,0000) =   1816,296 ms/op
+     p(90,0000) =   2053,041 ms/op
+     p(95,0000) =   2200,455 ms/op
+     p(99,0000) =   2200,455 ms/op
+     p(99,9000) =   2200,455 ms/op
+     p(99,9900) =   2200,455 ms/op
+     p(99,9990) =   2200,455 ms/op
+     p(99,9999) =   2200,455 ms/op
+    p(100,0000) =   2200,455 ms/op
+
+
+# Run complete. Total time: 00:26:00
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                      (keySize)  Mode  Cnt      Score     Error  Units
+RsaBenchmark.benchmarkDecrypt       2048    ss   15  13256,453 ± 248,885  ms/op
+RsaBenchmark.benchmarkDecrypt       4096    ss   15  87985,428 ± 425,885  ms/op
+RsaBenchmark.benchmarkEncrypt       2048    ss   15    619,601 ± 120,294  ms/op
+RsaBenchmark.benchmarkEncrypt       4096    ss   15   1863,814 ± 111,956  ms/op
+
+=== CPU por chamada (medida fora do JMH) ===
+Operacao     Chave (bits) Iteracoes  CPU (s)       
+Geracao      2048         5          0,548000000   
+Geracao      2048         10         0,132000000   
+Geracao      2048         50         0,129400000   
+Geracao      2048         100        0,123300000   
+Cifracao     2048         10         0,001000000   
+Cifracao     2048         100        0,001100000   
+Cifracao     2048         1000       0,000510000   
+Cifracao     2048         10000      0,000224000   
+Decifracao   2048         10         0,002000000   
+Decifracao   2048         100        0,001700000   
+Decifracao   2048         1000       0,001470000   
+Decifracao   2048         10000      0,001349000   
+Geracao      4096         5          1,382000000   
+Geracao      4096         10         1,037000000   
+Geracao      4096         50         1,334000000   
+Geracao      4096         100        1,562000000   
+Cifracao     4096         10         0,000000000   
+Cifracao     4096         100        0,000400000   
+Cifracao     4096         1000       0,000190000   
+Cifracao     4096         10000      0,000252000   
+Decifracao   4096         10         0,009000000   
+Decifracao   4096         100        0,008900000   
+Decifracao   4096         1000       0,009300000   
+Decifracao   4096         10000      0,008835000   

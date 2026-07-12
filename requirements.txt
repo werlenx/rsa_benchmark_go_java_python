@@ -1,0 +1,6 @@
+cryptography
+pycryptodome
+pytest
+pytest-benchmark
+psutil
+tabulate
