@@ -1,0 +1,241 @@
+implementacao,linguagem,camada,operacao,chave_bits,iteracoes,media_s,desvio_s,cv_pct,pico_rss_kb,cpu_s,fonte
+Cryptography,Python,framework,Geracao,2048,5,0.059099808,0.016151122,27.3,,,results.json
+Cryptography,Python,framework,Geracao,2048,10,0.056352493,0.010758797,19.1,,,results.json
+Cryptography,Python,framework,Geracao,2048,50,0.066823401,0.009281443,13.9,,,results.json
+Cryptography,Python,framework,Geracao,2048,100,0.061062570,0.004366750,7.2,,,results.json
+Cryptography,Python,framework,Geracao,4096,5,0.565048425,0.169355156,30.0,,,results.json
+Cryptography,Python,framework,Geracao,4096,10,0.703906033,0.171143793,24.3,,,results.json
+Cryptography,Python,framework,Geracao,4096,50,0.625581690,0.052687701,8.4,,,results.json
+Cryptography,Python,framework,Geracao,4096,100,0.586045935,0.022641162,3.9,,,results.json
+Cryptography,Python,framework,Cifracao,2048,10,0.000032948,0.000009544,29.0,,,results.json
+Cryptography,Python,framework,Cifracao,2048,100,0.000031739,0.000003813,12.0,,,results.json
+Cryptography,Python,framework,Cifracao,2048,1000,0.000030339,0.000000621,2.0,,,results.json
+Cryptography,Python,framework,Cifracao,2048,10000,0.000031213,0.000001790,5.7,,,results.json
+Cryptography,Python,framework,Cifracao,4096,10,0.000098793,0.000030791,31.2,,,results.json
+Cryptography,Python,framework,Cifracao,4096,100,0.000084669,0.000005303,6.3,,,results.json
+Cryptography,Python,framework,Cifracao,4096,1000,0.000097622,0.000020869,21.4,,,results.json
+Cryptography,Python,framework,Cifracao,4096,10000,0.000084194,0.000001553,1.8,,,results.json
+Cryptography,Python,framework,Decifracao,2048,10,0.000699796,0.000073579,10.5,,,results.json
+Cryptography,Python,framework,Decifracao,2048,100,0.000675615,0.000008827,1.3,,,results.json
+Cryptography,Python,framework,Decifracao,2048,1000,0.000675543,0.000005538,0.8,,,results.json
+Cryptography,Python,framework,Decifracao,2048,10000,0.000680964,0.000014329,2.1,,,results.json
+Cryptography,Python,framework,Decifracao,4096,10,0.004498891,0.000123258,2.7,,,results.json
+Cryptography,Python,framework,Decifracao,4096,100,0.004483799,0.000037749,0.8,,,results.json
+Cryptography,Python,framework,Decifracao,4096,1000,0.004532128,0.000127356,2.8,,,results.json
+Cryptography,Python,framework,Decifracao,4096,10000,0.005260690,0.000699277,13.3,,,results.json
+Cryptography,Python,vanilla,Geracao,2048,5,0.052314434,0.021051617,40.2,26204,0.052000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,2048,10,0.072811904,0.029056643,39.9,26204,0.073000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,2048,50,0.053686815,0.028699286,53.5,26212,0.054000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,2048,100,0.055041472,0.040744425,74.0,26216,0.055100,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,4096,5,0.554409558,0.303225533,54.7,26228,0.554000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,4096,10,0.529158334,0.269037511,50.8,26228,0.529000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,4096,50,0.507116480,0.309771765,61.1,26236,0.507400,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Geracao,4096,100,0.537887788,0.378267919,70.3,26236,0.538000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,2048,10,0.000318864,0.000859830,269.7,26524,0.000000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,2048,100,0.000038953,0.000001437,3.7,26532,0.000100,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,2048,1000,0.000038400,0.000001117,2.9,26564,0.000110,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,2048,10000,0.000038711,0.000002963,7.7,26920,0.000112,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,4096,10,0.000098090,0.000012240,12.5,26924,0.000000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,4096,100,0.000091917,0.000003572,3.9,26928,0.000200,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,4096,1000,0.000090752,0.000002166,2.4,26928,0.000170,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Cifracao,4096,10000,0.000091497,0.000005818,6.4,26944,0.000166,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,2048,10,0.000716483,0.000154317,21.5,26996,0.001000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,2048,100,0.000676379,0.000072709,10.7,26996,0.000800,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,2048,1000,0.000687059,0.000088072,12.8,26996,0.000770,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,2048,10000,0.000689267,0.000099350,14.4,27016,0.000776,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,4096,10,0.004554623,0.000437138,9.6,27020,0.004000,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,4096,100,0.004474271,0.000254083,5.7,27020,0.004600,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,4096,1000,0.004475688,0.000270114,6.0,27020,0.004570,env mrx mrx repo rsa benchmark.txt
+Cryptography,Python,vanilla,Decifracao,4096,10000,0.004522269,0.000340686,7.5,27036,0.004615,env mrx mrx repo rsa benchmark.txt
+PyCryptodome,Python,framework,Geracao,2048,5,0.580245271,0.157501029,27.1,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,2048,10,0.509610698,0.086151226,16.9,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,2048,50,0.492829432,0.044508606,9.0,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,2048,100,0.515119019,0.028259223,5.5,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,4096,5,4.800759303,1.572293805,32.8,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,4096,10,5.322781904,1.297495319,24.4,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,4096,50,5.007498897,0.473394312,9.5,,,results_pytest.json
+PyCryptodome,Python,framework,Geracao,4096,100,4.737481004,0.357879860,7.6,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,2048,10,0.000608869,0.000042773,7.0,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,2048,100,0.000595375,0.000004987,0.8,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,2048,1000,0.000597626,0.000006006,1.0,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,2048,10000,0.000600620,0.000005203,0.9,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,4096,10,0.001228861,0.000047153,3.8,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,4096,100,0.001221191,0.000013698,1.1,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,4096,1000,0.001221913,0.000016028,1.3,,,results_pytest.json
+PyCryptodome,Python,framework,Cifracao,4096,10000,0.001221364,0.000003446,0.3,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,2048,10,0.001587797,0.000075773,4.8,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,2048,100,0.001575004,0.000020353,1.3,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,2048,1000,0.001576179,0.000017469,1.1,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,2048,10000,0.001582183,0.000004771,0.3,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,4096,10,0.007563704,0.000063895,0.8,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,4096,100,0.007601289,0.000169800,2.2,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,4096,1000,0.007581061,0.000028800,0.4,,,results_pytest.json
+PyCryptodome,Python,framework,Decifracao,4096,10000,0.007583671,0.000004352,0.1,,,results_pytest.json
+PyCryptodome,Python,vanilla,Geracao,2048,5,0.384527676,0.117033418,30.4,22612,0.384000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,2048,10,0.467202626,0.264104660,56.5,22616,0.467000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,2048,50,0.474345943,0.320974301,67.7,22616,0.474400,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,2048,100,0.477826056,0.316451084,66.2,22624,0.478000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,4096,5,3.668618763,3.542066650,96.6,22624,3.670000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,4096,10,6.014312103,3.854004922,64.1,22624,6.013000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,4096,50,4.565197668,3.071501068,67.3,22624,4.565200,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Geracao,4096,100,5.229783828,2.957849725,56.6,22624,5.229400,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,2048,10,0.000779979,0.000488191,62.6,22640,0.001000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,2048,100,0.000629096,0.000048648,7.7,22640,0.000700,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,2048,1000,0.000621147,0.000031839,5.1,22668,0.000730,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,2048,10000,0.000622365,0.000030592,4.9,22952,0.000727,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,4096,10,0.001257205,0.000029919,2.4,22972,0.002000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,4096,100,0.001240826,0.000008048,0.6,22972,0.001300,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,4096,1000,0.001256463,0.000101363,8.1,22972,0.001370,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Cifracao,4096,10000,0.001251785,0.000083945,6.7,22988,0.001360,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,2048,10,0.001571020,0.000083227,5.3,22996,0.001000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,2048,100,0.001539925,0.000013344,0.9,22996,0.001700,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,2048,1000,0.001555200,0.000065703,4.2,23000,0.001670,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,2048,10000,0.001560413,0.000115431,7.4,23004,0.001673,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,4096,10,0.007889364,0.000024417,0.3,23072,0.008000,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,4096,100,0.007949511,0.000309300,3.9,23072,0.008100,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,4096,1000,0.007932651,0.000253915,3.2,23072,0.008050,python pycryptodome_vanilla.txt
+PyCryptodome,Python,vanilla,Decifracao,4096,10000,0.007952506,0.000381892,4.8,23072,0.008068,python pycryptodome_vanilla.txt
+crypto/rsa,Go,framework,Geracao,2048,5,0.097720000,0.031490000,32.2,9712,0.097960,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,2048,10,0.098310000,0.016280000,16.6,9772,0.098450,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,2048,50,0.097120000,0.009438000,9.7,10116,0.097320,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,2048,100,0.096140000,0.004690000,4.9,10404,0.096320,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,4096,5,1.008000000,0.202000000,20.0,10196,1.010000,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,4096,10,0.915800000,0.155400000,17.0,10572,0.916800,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,4096,50,1.007000000,0.092020000,9.1,10696,1.008000,go crypto.rsa.txt
+crypto/rsa,Go,framework,Geracao,4096,100,1.015000000,0.055380000,5.5,10832,1.015000,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,2048,10,0.000075000,0.000064100,85.5,6140,0.000060,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,2048,100,0.000052700,0.000009600,18.2,8276,0.000053,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,2048,1000,0.000064000,0.000012500,19.5,10076,0.000061,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,2048,10000,0.000051400,0.000004700,9.1,10568,0.000051,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,4096,10,0.000554000,0.000035000,6.3,10096,0.000570,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,4096,100,0.000538800,0.000033900,6.3,10448,0.000551,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,4096,1000,0.000513900,0.000014500,2.8,10888,0.000526,go crypto.rsa.txt
+crypto/rsa,Go,framework,Cifracao,4096,10000,0.000594100,0.000136300,22.9,11200,0.000581,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,2048,10,0.001816000,0.000281000,15.5,6352,0.001787,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,2048,100,0.002286000,0.000569100,24.9,6784,0.002040,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,2048,1000,0.001774000,0.000236400,13.3,10264,0.001734,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,2048,10000,0.001615000,0.000121800,7.5,10680,0.001599,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,4096,10,0.008729000,0.000134700,1.5,10088,0.008750,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,4096,100,0.008737000,0.000062700,0.7,10392,0.008753,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,4096,1000,0.008763000,0.000094500,1.1,10652,0.008777,go crypto.rsa.txt
+crypto/rsa,Go,framework,Decifracao,4096,10000,0.008791000,0.000020900,0.2,11168,0.008799,go crypto.rsa.txt
+crypto/rsa,Go,vanilla,Geracao,2048,5,0.113930951,0.041648729,36.6,7332,0.114264,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,2048,10,0.110051559,0.051083087,46.4,7636,0.110297,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,2048,50,0.103989114,0.058301070,56.1,8500,0.104274,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,2048,100,0.106301015,0.066549024,62.6,8556,0.106522,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,4096,5,0.538216272,0.413550565,76.8,8084,0.538881,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,4096,10,0.845841173,0.488331529,57.7,8024,0.847553,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,4096,50,1.069031170,0.744003599,69.6,8560,1.070556,go vanilla.txt
+crypto/rsa,Go,vanilla,Geracao,4096,100,0.964579572,0.609439271,63.2,8600,0.965965,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,2048,10,0.000049418,0.000004037,8.2,8404,0.000050,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,2048,100,0.000051303,0.000015700,30.6,7508,0.000059,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,2048,1000,0.000048314,0.000003156,6.5,5516,0.000049,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,2048,10000,0.000048071,0.000005001,10.4,8220,0.000048,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,4096,10,0.000496220,0.000007737,1.6,8220,0.000496,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,4096,100,0.000534772,0.000087901,16.4,8304,0.000545,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,4096,1000,0.000505627,0.000038648,7.6,8672,0.000516,go vanilla.txt
+crypto/rsa,Go,vanilla,Cifracao,4096,10000,0.000512274,0.000068236,13.3,8748,0.000522,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,2048,10,0.001591398,0.000113331,7.1,7948,0.001661,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,2048,100,0.001553172,0.000053552,3.4,5004,0.001557,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,2048,1000,0.001561054,0.000065218,4.2,4596,0.001564,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,2048,10000,0.001564683,0.000090395,5.8,8272,0.001567,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,4096,10,0.008753944,0.000293928,3.4,8060,0.008837,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,4096,100,0.008694622,0.000257701,3.0,5364,0.008715,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,4096,1000,0.008837234,0.000762650,8.6,8680,0.008852,go vanilla.txt
+crypto/rsa,Go,vanilla,Decifracao,4096,10000,0.008794422,0.000697524,7.9,8876,0.008805,go vanilla.txt
+java.security,Java,framework,Geracao,2048,5,0.161065240,0.050917136,31.6,,,benchmark_desconhecido.txt
+java.security,Java,framework,Geracao,2048,10,0.160202600,0.031989080,20.0,,,benchmark_desconhecido.txt
+java.security,Java,framework,Geracao,2048,50,0.156826361,0.010885758,6.9,,,benchmark_desconhecido.txt
+java.security,Java,framework,Geracao,2048,100,0.157998685,0.011868554,7.5,,,benchmark_desconhecido.txt
+java.security,Java,framework,Geracao,4096,5,,,,,,ausente
+java.security,Java,framework,Geracao,4096,10,18.168840980,1.206698911,6.6,,,benchmark_desconhecido.txt
+java.security,Java,framework,Geracao,4096,50,0.353134069,0.067273100,19.1,,,benchmark_desconhecido.txt
+java.security,Java,framework,Geracao,4096,100,0.899690711,0.081880428,9.1,,,benchmark_desconhecido.txt
+java.security,Java,framework,Cifracao,2048,10,0.000204760,0.000051901,25.3,,,rerun_jca.log
+java.security,Java,framework,Cifracao,2048,100,0.000117004,0.000057156,48.8,,,rerun_jca.log
+java.security,Java,framework,Cifracao,2048,1000,0.000066130,0.000017218,26.0,,,rerun_jca.log
+java.security,Java,framework,Cifracao,2048,10000,0.000052525,0.000007798,14.8,,,rerun_jca.log
+java.security,Java,framework,Cifracao,4096,10,0.173423173,0.016479671,9.5,,,rerun_jca.log
+java.security,Java,framework,Cifracao,4096,100,0.000051858,0.000009980,19.2,,,rerun_jca.log
+java.security,Java,framework,Cifracao,4096,1000,0.000212066,0.000068595,32.3,,,rerun_jca.log
+java.security,Java,framework,Cifracao,4096,10000,0.000023040,0.000006567,28.5,,,rerun_jca.log
+java.security,Java,framework,Decifracao,2048,10,0.002401220,0.000591685,24.6,,,rerun_jca.log
+java.security,Java,framework,Decifracao,2048,100,0.001440723,0.000227762,15.8,,,rerun_jca.log
+java.security,Java,framework,Decifracao,2048,1000,0.001321278,0.000077432,5.9,,,rerun_jca.log
+java.security,Java,framework,Decifracao,2048,10000,0.001401046,0.000030990,2.2,,,rerun_jca.log
+java.security,Java,framework,Decifracao,4096,10,0.009935920,0.001524381,15.3,,,rerun_jca.log
+java.security,Java,framework,Decifracao,4096,100,0.008838664,0.000241895,2.7,,,rerun_jca.log
+java.security,Java,framework,Decifracao,4096,1000,0.008707224,0.000101671,1.2,,,rerun_jca.log
+java.security,Java,framework,Decifracao,4096,10000,0.008881937,0.000473737,5.3,,,rerun_jca.log
+java.security,Java,vanilla,Geracao,2048,5,0.103175181,0.049649346,48.1,191344,0.126000,parte 2.txt
+java.security,Java,vanilla,Geracao,2048,10,0.132027000,0.063271508,47.9,188388,0.142000,parte 2.txt
+java.security,Java,vanilla,Geracao,2048,50,0.148421049,0.080583965,54.3,207404,0.156200,parte 2.txt
+java.security,Java,vanilla,Geracao,2048,100,0.160944158,0.094479422,58.7,207440,0.163100,parte 2.txt
+java.security,Java,vanilla,Geracao,4096,5,1.736419511,1.492173540,85.9,184904,1.734000,parte 2.txt
+java.security,Java,vanilla,Geracao,4096,10,1.797320089,1.052293554,58.5,184976,1.790000,parte 2.txt
+java.security,Java,vanilla,Geracao,4096,50,1.823349712,1.266219901,69.4,184872,1.819000,parte 2.txt
+java.security,Java,vanilla,Geracao,4096,100,1.869465419,1.371017688,73.3,184924,1.861200,parte 2.txt
+java.security,Java,vanilla,Cifracao,2048,10,0.000112081,0.000038044,33.9,184952,0.000000,parte 2.txt
+java.security,Java,vanilla,Cifracao,2048,100,0.000095666,0.000019195,20.1,184960,0.000200,parte 2.txt
+java.security,Java,vanilla,Cifracao,2048,1000,0.000094341,0.000043701,46.3,184972,0.000180,parte 2.txt
+java.security,Java,vanilla,Cifracao,2048,10000,0.000074862,0.000022586,30.2,185044,0.000114,parte 2.txt
+java.security,Java,vanilla,Cifracao,4096,10,0.000249657,0.000045450,18.2,185080,0.001000,parte 2.txt
+java.security,Java,vanilla,Cifracao,4096,100,0.000244418,0.000029986,12.3,185084,0.000200,parte 2.txt
+java.security,Java,vanilla,Cifracao,4096,1000,0.000228668,0.000039576,17.3,185096,0.000230,parte 2.txt
+java.security,Java,vanilla,Cifracao,4096,10000,0.000240254,0.000090433,37.6,207692,0.000334,parte 2.txt
+java.security,Java,vanilla,Decifracao,2048,10,0.002030390,0.000573178,28.2,207708,0.002000,parte 2.txt
+java.security,Java,vanilla,Decifracao,2048,100,0.001800854,0.000160762,8.9,207716,0.002100,parte 2.txt
+java.security,Java,vanilla,Decifracao,2048,1000,0.001763929,0.000172915,9.8,207724,0.001820,parte 2.txt
+java.security,Java,vanilla,Decifracao,2048,10000,0.001734041,0.000182055,10.5,273192,0.001764,parte 2.txt
+java.security,Java,vanilla,Decifracao,4096,10,0.012384125,0.001835615,14.8,273940,0.018000,parte 2.txt
+java.security,Java,vanilla,Decifracao,4096,100,0.010934193,0.001183636,10.8,199360,0.011400,parte 2.txt
+java.security,Java,vanilla,Decifracao,4096,1000,0.011402925,0.001548442,13.6,206260,0.012170,parte 2.txt
+java.security,Java,vanilla,Decifracao,4096,10000,0.011337734,0.001120762,9.9,188156,0.011355,parte 2.txt
+BouncyCastle,Java,framework,Geracao,2048,5,0.236078400,0.073006231,30.9,,,java BC.txt
+BouncyCastle,Java,framework,Geracao,2048,10,0.223978827,0.041771441,18.6,,,java BC.txt
+BouncyCastle,Java,framework,Geracao,2048,50,0.220641216,0.018873064,8.6,,,java BC.txt
+BouncyCastle,Java,framework,Geracao,2048,100,0.206799071,0.010349964,5.0,,,java BC.txt
+BouncyCastle,Java,framework,Geracao,4096,5,,,,,,ausente
+BouncyCastle,Java,framework,Geracao,4096,10,20.977580753,1.473316723,7.0,,,java BC.txt
+BouncyCastle,Java,framework,Geracao,4096,50,0.448687957,0.079640295,17.7,,,java BC.txt
+BouncyCastle,Java,framework,Geracao,4096,100,1.039574519,0.100753650,9.7,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,2048,10,0.000198527,0.000083947,42.3,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,2048,100,0.000127219,0.000024486,19.2,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,2048,1000,0.000064788,0.000017720,27.4,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,2048,10000,0.000054623,0.000005097,9.3,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,4096,10,,,,,,ausente
+BouncyCastle,Java,framework,Cifracao,4096,100,0.000041243,0.000016982,41.2,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,4096,1000,0.000030522,0.000008280,27.1,,,java BC.txt
+BouncyCastle,Java,framework,Cifracao,4096,10000,0.000182346,0.000011863,6.5,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,2048,10,0.002273780,0.000501242,22.0,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,2048,100,0.001425886,0.000140698,9.9,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,2048,1000,0.001324633,0.000026673,2.0,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,2048,10000,0.001318657,0.000019479,1.5,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,4096,10,0.009468407,0.000781937,8.3,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,4096,100,0.009051166,0.000425674,4.7,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,4096,1000,0.008860871,0.000136597,1.5,,,java BC.txt
+BouncyCastle,Java,framework,Decifracao,4096,10000,0.008817134,0.000026562,0.3,,,java BC.txt
+BouncyCastle,Java,vanilla,Geracao,2048,5,0.322631422,0.107323754,33.3,240252,0.462000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,2048,10,0.245731681,0.117636127,47.9,181660,0.261000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,2048,50,0.260481906,0.153049334,58.8,181744,0.264000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,2048,100,0.234370747,0.144337987,61.6,154928,0.236700,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,4096,5,2.602782217,1.397419370,53.7,147212,2.602000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,4096,10,2.162640127,1.172249023,54.2,147244,2.161000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,4096,50,2.186175963,1.246736487,57.0,147304,2.179800,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Geracao,4096,100,2.762383922,2.081758800,75.4,147476,2.754500,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,2048,10,0.000270529,0.000040497,15.0,147524,0.001000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,2048,100,0.000133330,0.000069661,52.2,147556,0.000200,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,2048,1000,0.000083277,0.000020608,24.7,147576,0.000160,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,2048,10000,0.000077146,0.000125576,162.8,155328,0.000104,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,4096,10,0.000354812,0.000111633,31.5,155332,0.000000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,4096,100,0.000249685,0.000052627,21.1,155336,0.000300,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,4096,1000,0.000182306,0.000026818,14.7,155336,0.000180,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Cifracao,4096,10000,0.000240446,0.000102411,42.6,182536,0.000326,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,2048,10,0.002281750,0.000338995,14.9,182568,0.005000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,2048,100,0.002052768,0.000580509,28.3,182588,0.003700,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,2048,1000,0.001756051,0.000194380,11.1,182324,0.001850,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,2048,10000,0.001736494,0.000200150,11.5,168012,0.001745,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,4096,10,0.011420781,0.001000726,8.8,167868,0.012000,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,4096,100,0.011274378,0.000838072,7.4,155712,0.011300,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,4096,1000,0.011340272,0.001631587,14.4,155776,0.011280,java vanilla bc.txt
+BouncyCastle,Java,vanilla,Decifracao,4096,10000,0.011354789,0.001119442,9.9,155788,0.011334,java vanilla bc.txt
